@@ -1,0 +1,44 @@
+/* Parâmetros para monitores abaixo de 900px de largura */
+@media (max-width: 900px) {
+    #page-home {
+        background-position: 70vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 0px;
+        left:50%;
+        transform: translateX(-50%);        
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        height: 250px;
+    }
+}
+
+/* Parâmetros para monitores acima 1700px de largura */
+@media (min-width: 1700px) { 
+    #page-home {
+        background-position: 40vw;
+    }
+}
+
+/* Parâmetros para monitores até 780px de altura */
+@media (max-height: 780px) { /* Na aula usou 760px */
+    #page-home {
+        background-position-y: 130px; /* Na aula usou 200px */
+    }    
+}
