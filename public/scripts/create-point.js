@@ -85,6 +85,7 @@ function handleSelectedItem(event) {
     // If not already selected, add to the selected items total
     } else {
         selectedItems.push(itemId)
-    }        
+    }    
+  
     collectedItems.value = selectedItems    
 }
